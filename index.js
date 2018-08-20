@@ -9,4 +9,5 @@ function fuzzyMatch(drivers, someStrings) {
   return matchingDrivers
 }
 
-function 
+function matchName(drivers, someStrings) {
+  let matchingDrivers = drivers.filter( name => drivers.map)
