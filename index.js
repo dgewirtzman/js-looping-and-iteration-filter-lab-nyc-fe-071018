@@ -4,7 +4,7 @@ function findMatching(drivers, someStrings) {
   return matchingDrivers
 }
 
-function findMatching(drivers, someStrings) {
+function fuzzyMatch(drivers, someStrings) {
   let matchingDrivers = drivers.filter( name => name.toUpperCase() === someStrings.toUpperCase())
   return matchingDrivers
 }
